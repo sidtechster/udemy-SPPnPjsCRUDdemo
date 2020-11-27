@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sppnpcruddemo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sppnpcruddemo/SppnpcruddemoWebPart.js",
+          "manifest": "./src/webparts/sppnpcruddemo/SppnpcruddemoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SppnpcruddemoWebPartStrings": "lib/webparts/sppnpcruddemo/loc/{locale}.js"
+  }
+}
